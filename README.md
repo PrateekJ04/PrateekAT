@@ -11,7 +11,7 @@ Tech Stack Used
 How to install all required packages
 *   pip install requests pytest pytest-html allure-pytest faker  
 
-Steps and folder structure is mentioned below 
+folder structure is mentioned below 
 
 src
 -     Constants--> URL details
