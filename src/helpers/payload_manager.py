@@ -1,4 +1,13 @@
 import faker
+import openpyxl
+
+
+from src.constants.api_constants import Api_Constants
+from src.utils.utils import Utility
+from src.helpers.api_request_wrapper import Api_Requests_Wrapper
+
+readutils = Utility()
+apiwrapper = Api_Requests_Wrapper()
 
 fake = faker.Faker()
 
@@ -70,3 +79,32 @@ def create_token():
     }
     return payload
 
+
+def read_creds_from_excel(filepath):
+    # filepath="src/resources/DDPytest_Read.XLSX"
+    credentials = []
+    workbook = openpyxl.load_workbook(filename=filepath)
+    sheet = workbook.active
+    for row in sheet.iter_rows(min_row=2, values_only=True):
+        username, password = row
+        credentials.append(({
+
+            "username": username,
+            "password": password
+
+        }))
+
+    return credentials
+
+
+def create_auth_request(username, password):
+    payload = {
+        "username": username,
+        "password": password
+
+    }
+    response = apiwrapper.post_request(url=Api_Constants.create_auth_url(), auth=None,
+                                       headers=readutils.common_headers_json(),
+                                       payload=payload,
+                                       in_json=False)
+    return response
