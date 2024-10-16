@@ -66,7 +66,7 @@ def dynamic_payload_create_booking():
 def create_token():
     payload = {
         "username": "admin",
-        "password": "password@123"
+        "password": "password123"
     }
     return payload
 

@@ -4,30 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="315f50ab-6242-4879-b487-f6876bb392cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/APIAutoFRMWK.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Installations_Guide/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/api_constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/api_request_wrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/common_verifications.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/payload_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/crud/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/crud/test_create-booking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/integration/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tests/__init__.py" afterDir="false" />
+    <list default="true" id="315f50ab-6242-4879-b487-f6876bb392cd" name="Changes" comment="API Auto 1st testcase">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/crud/test_crud_operations_booking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/crud/test_update_booking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tests/test_crud_better.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/api_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/api_constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/api_request_wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/api_request_wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/payload_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/payload_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/crud/test_create-booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/crud/test_create-booking.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +31,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PrateekJ04&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e0a4d898-ff74-4741-8b5c-bc3c75c55154" />
+        <option name="url" value="https://github.com/PrateekJ04/PrateekAT.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2mNeT6msSgtrTFsGl7Si7Nezinv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -55,23 +59,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_create-booking.Test_Create_Booking.executor": "Run",
-    "Python tests.Python tests for test_create-booking.Test_Create_Booking.test_create_booking (1).executor": "Run",
-    "Python tests.Python tests for test_create-booking.Test_Create_Booking.test_create_booking.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/prate/PycharmProjects/APIAutoFRMWK/test",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_create-booking.Test_Create_Booking.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create-booking.Test_Create_Booking.test_create_booking (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create-booking.Test_Create_Booking.test_create_booking.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for test_crud_operations_booking.Test_Crud_Booking.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_crud_operations_booking.Test_Crud_Booking.test_create_token.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_update_booking.Test_Update_Booking.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_update_booking.Test_Update_Booking.test_create_booking.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_crud_better.py.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/prate/PycharmProjects/APIAutoFRMWKDD&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\prate\PycharmProjects" />
       <recent name="C:\Users\prate\PycharmProjects\APIAutoFRMWK" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\prate\PycharmProjects\APIAutoFRMWK\test\tests" />
       <recent name="C:\Users\prate\PycharmProjects\APIAutoFRMWK\src" />
     </key>
   </component>
@@ -91,7 +103,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_create-booking.Test_Create_Booking.test_create_booking (1)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_crud_operations_booking.Test_Crud_Booking" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="APIAutoFRMWK" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,11 +114,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_create-booking.Test_Create_Booking.test_create_booking&quot;" />
+      <option name="_new_target" value="&quot;test_crud_operations_booking.Test_Crud_Booking&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_create-booking.Test_Create_Booking.test_create_booking" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_crud_operations_booking.Test_Crud_Booking.test_create_token" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="APIAutoFRMWK" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,15 +129,47 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_crud_operations_booking.Test_Crud_Booking.test_create_token&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_update_booking.Test_Update_Booking" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="APIAutoFRMWK" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/crud" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_update_booking.Test_Update_Booking&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_update_booking.Test_Update_Booking.test_create_booking" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="APIAutoFRMWK" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/crud" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_update_booking.Test_Update_Booking.test_create_booking&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_crud_operations_booking.Test_Crud_Booking" />
+        <item itemvalue="Python tests.Python tests for test_crud_operations_booking.Test_Crud_Booking.test_create_token" />
+        <item itemvalue="Python tests.Python tests for test_update_booking.Test_Update_Booking" />
         <item itemvalue="Python tests.Python tests for test_create-booking.Test_Create_Booking" />
-        <item itemvalue="Python tests.Python tests for test_create-booking.Test_Create_Booking.test_create_booking (1)" />
-        <item itemvalue="Python tests.Python tests for test_create-booking.Test_Create_Booking.test_create_booking" />
+        <item itemvalue="Python tests.Python tests for test_update_booking.Test_Update_Booking.test_create_booking" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +189,19 @@
       <option name="presentableId" value="Default" />
       <updated>1726921465377</updated>
     </task>
+    <task id="LOCAL-00001" summary="API Auto 1st testcase">
+      <option name="closed" value="true" />
+      <created>1726937162480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726937162480</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="API Auto 1st testcase" />
+    <option name="LAST_COMMIT_MESSAGE" value="API Auto 1st testcase" />
   </component>
 </project>

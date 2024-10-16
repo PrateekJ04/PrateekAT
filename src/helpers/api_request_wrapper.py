@@ -2,8 +2,10 @@ import requests
 import json
 
 class Api_Requests_Wrapper():
-    def get_request(self, url, auth):
+    def get_request(self, url, auth, in_json):
         get_response= requests.get(url=url,auth=auth)
+        if in_json is True:
+            return get_response.json()
         return get_response.json()
 
     def post_request(self,url, auth, headers, payload, in_json):

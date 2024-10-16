@@ -22,4 +22,5 @@ class Test_Create_Booking(object):
                                                basic_auth_value="YWRtaW46cGFzc3dvcmQxMjM="), auth=None,
                                            payload=dynamic_payload_create_booking(), in_json=False)
         booking_id = response.json()["bookingid"]
+        print(f"Booking id is: {booking_id}")
         verification_by_status_code(response_data=response.status_code, expected_data=200)
