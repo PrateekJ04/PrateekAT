@@ -11,7 +11,7 @@ apiwrapper = Api_Requests_Wrapper()
 @allure.title("Verify if user is able to Log in")
 @allure.description("User should be able to logged in successfully")
 def test_create_auth_with_excel():
-    file_path = "C:\\Users\\prate\\PycharmProjects\\APIAutoFRMWK\\src\\resources\\exceldata.XLSX"
+    file_path = ".\\src\\resources\\exceldata.XLSX"
     credentials = read_creds_from_excel(filepath=file_path)
     print(credentials)
     for user_cred in credentials:
