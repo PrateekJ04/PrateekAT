@@ -8,7 +8,7 @@ Tech Stack Used
 -   pytest-html           4.1.1
 -   requests              2.32.3
 
-How to install all required packages
+How to install all required packages[Insert Below command in Commnad line]
 *   pip install requests pytest pytest-html allure-pytest faker  
 
 folder structure is mentioned below 
