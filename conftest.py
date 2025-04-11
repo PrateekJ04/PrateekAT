@@ -21,7 +21,7 @@ def get_token():
 
 
 @pytest.fixture(scope="session")
-def get_booking():
+def get_booking_id():
     # URL, Payload, Headers
 
     response = apiwrapper.post_request(url=Api_Constants.create_booking_url(),
