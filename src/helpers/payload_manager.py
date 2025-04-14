@@ -29,15 +29,15 @@ def payload_create_booking():
 
 def payload_update_booking():
     payload = {
-        "firstname": "Miles",
-        "lastname": "Morals",
-        "totalprice": 112,
+        "firstname": fake.name(),
+        "lastname": fake.last_name(),
+        "totalprice": fake.random_int(100,1000),
         "depositpaid": True,
         "bookingdates": {
             "checkin": "2018-01-01",
             "checkout": "2019-01-01"
         },
-        "additionalneeds": "Breakfast"
+        "additionalneeds": "Lunch"
     }
     return payload
 
