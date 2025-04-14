@@ -22,4 +22,4 @@ class Test_Update_Booking(object):
                                               basic_auth_value="YWRtaW46cGFzc3dvcmQxMjM="), auth=None,
                                           payload=payload_update_booking(), in_json=False)
 
-        verification_by_status_code(response_data=response.status_code, expected_data=405)
+        verification_by_status_code(response_data=response.status_code, expected_data=200)

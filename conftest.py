@@ -9,7 +9,7 @@ from src.helpers.common_verifications import *
 readutils = Utility()
 apiwrapper = Api_Requests_Wrapper()
 
-
+#This reference to create token for further requests
 @pytest.fixture(scope="session")
 def get_token():
     response = apiwrapper.post_request(url=Api_Constants.create_auth_url(), auth=None,
@@ -19,7 +19,7 @@ def get_token():
     tkn = response.json()["token"]
     return tkn
 
-
+#This get_booking_id reference to basic auth
 @pytest.fixture(scope="session")
 def get_booking_id():
     # URL, Payload, Headers
